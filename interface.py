@@ -1,8 +1,10 @@
 import customtkinter as ctk
 
+from repertoire import Repertoire
+
 
 class RepertoireUI(ctk.CTk):
-    def __init__(self, repertoire):
+    def __init__(self, repertoire: Repertoire):
         """
         Initialise l'interface utilisateur de l'application de répertoire.
 
@@ -42,7 +44,7 @@ class RepertoireUI(ctk.CTk):
 
         self.quitter_button(self).pack(padx=20, pady=10)
 
-    def input_dialog(self, title, text) -> str:
+    def input_dialog(self, title: str, text: str) -> str:
         """
         Affiche une boîte de dialogue pour la saisie de l'utilisateur.
 
