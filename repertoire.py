@@ -118,8 +118,3 @@ class Repertoire:
         )
 
         return self.cur.fetchall()
-
-
-if __name__ == "__main__":
-    app = Repertoire()
-    app.run()
