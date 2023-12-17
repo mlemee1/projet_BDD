@@ -20,6 +20,20 @@ Le projet est divisé en 4 fichiers distincts.
 -   `interface.py`: Responsable de l'interface graphique utilisateur, utilise la bibliothèque "customtkinter".
 -   `contacts.sqlite`: Base de données présente dans le cadre de tests, contenant par défaut 2 contacts.
 
+## Statut d'implémentation
+
+-   [x] Menu (sous forme d'interface graphique)
+-   [x] Ajout d'un contact dans la base de données
+-   [x] Suppression d'un contact
+-   [x] Demande de confirmation avant la suppression
+-   [x] Affichage de tous les contacts dans l'ordre spécifié
+-   [x] Recherche parmi les contacts
+-   [x] Quitter l'application
+-   [x] Interface graphique
+-   [x] Code propre
+-   [x] Code optimisé
+-   [x] Commentaires
+
 ## Contact
 
 Pour toute information supplémentaire, veuillez nous contacter aux adresses mail suivantes :
